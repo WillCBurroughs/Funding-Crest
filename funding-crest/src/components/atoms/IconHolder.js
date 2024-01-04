@@ -21,7 +21,7 @@ const IconHolder = ({ activeLink, iconName, color }) => {
   };
 
   const iconStyle = {
-    height: "30px",
+    height: "20px",
     position: "relative",
     width: "30px",
   };
