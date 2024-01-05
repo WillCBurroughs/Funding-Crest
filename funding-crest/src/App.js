@@ -1,5 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import ReactDOM from 'react-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import myImage from "./images/FC.svg";
 import CustomNavbar from "./components/organisms/CustomNavbar";
 import TopNavbar from "./components/organisms/TopNavbar";
@@ -10,6 +12,7 @@ import SubstoryHeader from "./components/atoms/SubstoryHeader";
 import SubStoryAuthor from "./components/atoms/SubstoryAuthor";
 import SubstoryLine from "./components/atoms/SubstoryLine";
 import FullSubstory from "./components/organisms/FullSubstory";
+import { useHistory } from 'react-router-dom';
 
 function App() {
   return (
@@ -33,6 +36,7 @@ function App() {
             <SubStoryAuthor text="William Burroughs" />
             <SubstoryLine />
             <FullSubstory
+              link = "./FirstStory.js"
               headlinerTagText={"Grant"}
               storyName={"What should you wear to your next pitch competition"}
             />

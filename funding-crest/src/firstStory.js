@@ -6,7 +6,8 @@ import TopNavbar from "./components/organisms/TopNavbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import HeadStoryCarousel from "./components/organisms/HeadStoryCarousel";
 import SecondaryHeadlinerTag from "./components/atoms/SecondaryHeadlinerTag";
-function App() {
+
+function FirstStory() {
   return (
     <div style={{ backgroundColor: "#dee2e6", height: "150vh" }}>
       {/* <img src={myImage} alt="Funding Crest Logo" /> */}
@@ -22,4 +23,4 @@ function App() {
   );
 }
 
-export default App;
+export default FirstStory;
