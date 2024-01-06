@@ -2,10 +2,11 @@ import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import ExampleCarouselImage from '../molecules/ExampleCarouselImage';
 import HeadStoryCarouselStyle from '../../HeadStoryCarousel.css';
+import { Link } from 'react-router-dom';
 
 function HeadStoryCarousel() {
   const [captionText, setCaptionText] = useState('Competing at a pitch competition? This is what you should wear');
-
+  
   const handleSlideChange = (selectedIndex) => {
     const slides = [
       'Competing at a pitch competition? This is what you should wear',
