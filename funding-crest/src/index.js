@@ -6,7 +6,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <BrowserRouter> {/* Wrap your App component with BrowserRouter */}
+  <BrowserRouter> 
     <React.StrictMode>
       <App />
     </React.StrictMode>
