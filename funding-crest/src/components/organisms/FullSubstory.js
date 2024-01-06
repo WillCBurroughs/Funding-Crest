@@ -14,7 +14,7 @@ const FullSubstory = ({
   height = "2px",
 }) => {
   return (
-    <Link to={link} >
+    <Link to={link} style={{textDecoration: "none"}} >
       <div>
         <SecondaryHeadlinerTag
           text={headlinerTagText}
