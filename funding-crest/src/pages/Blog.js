@@ -26,13 +26,16 @@ function Blog() {
           </div>
           <div className="col-12 col-lg-6 mt-4">
             <div className="mt-3">
-              <SecondaryHeadlinerTag text={"Pitch Competition"} className="" />
+              
             </div>
-            <SubstoryHeader
-              text={"What should you wear to your next pitch competition?"}
+
+            <FullSubstory 
+                link = {"/FirstStory"}
+                headlinerTagText={"Pitch Competition"}
+                storyName={"What should you wear to your next pitch competition?"}
             />
-            <SubStoryAuthor text="William Burroughs" />
             <SubstoryLine />
+            
             <FullSubstory
               link={"/FirstStory"}
               headlinerTagText={"Grant"}
