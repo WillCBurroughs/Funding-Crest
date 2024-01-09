@@ -56,7 +56,7 @@ function Blog() {
               <HeaderSectionTag text="View all pitch competition articles" />
               <SubsectionHeader text="Best Pitch Competition Articles" />
               <div className="container">
-              <div className="row" style={{marginLeft: "-110px"}}>
+              <div className="row me-4" style={{marginLeft: "-110px"}}>
                 <div className="col-lg-3 col-6">
                   <ExampleCarouselImage imageName="https://images.unsplash.com/photo-1552872673-9b7b99711ebb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8MTkyMCUyMHglMjAxMDgwfGVufDB8fDB8fHww" />
                 </div>

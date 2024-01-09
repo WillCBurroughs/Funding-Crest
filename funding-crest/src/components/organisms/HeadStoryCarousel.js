@@ -3,6 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 import ExampleCarouselImage from "../molecules/ExampleCarouselImage";
 import HeadStoryCarouselStyle from "../../HeadStoryCarousel.css";
 import { Link } from "react-router-dom";
+import pitchstory from "../../images/pitchphoto.jpg"
 
 function HeadStoryCarousel() {
   const [captionText, setCaptionText] = useState(
@@ -42,7 +43,7 @@ function HeadStoryCarousel() {
           <Carousel.Item>
             <ExampleCarouselImage
               text="First slide"
-              imageName="https://wallpapers.com/images/hd/moon-retro-vector-art-7op8fanjrtajdzp0.jpg"
+              imageName={pitchstory}
             />
             <Carousel.Caption>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -51,7 +52,7 @@ function HeadStoryCarousel() {
           <Carousel.Item>
             <ExampleCarouselImage
               text="Second slide"
-              imageName="https://wallpapers.com/images/hd/bright-blue-full-moon-3aezu4sm39ywd0ua.jpg"
+              imageName="https://images.unsplash.com/photo-1431540015161-0bf868a2d407?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
             <Carousel.Caption>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
